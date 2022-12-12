@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400,500&display=swap');
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+a {
+    color: green;
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Secular One', sans-serif;
+}
+
+#home h1 {
+    font-size: 3.5rem;
+    padding-bottom: 20px;
+}
+
+#small h1 {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    min-height: 50px;
+}
+
+nav a {
+    margin: auto 50px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9rem;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    text-decoration: overline;
+}
+
+header {
+    padding: 0 50px;
+    color: white;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    letter-spacing: 1px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+header#home{
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 110px);
+    font-size: 1.8rem;
+}
+
+header#small {
+    justify-content: center;
+    align-items: flex-start;
+    height: 150px;
+    font-size: 1.4rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+}
+
+main img {
+    padding: 20px auto;
+    margin: auto 100px;
+    width: 30%;
+    height: auto;
+}
+
+main > p {
+    padding: 50px;
+    height: auto;
+    line-height: 1.3rem;
+}
+
+#works {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+article {
+    max-width: 380px;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+article img {
+    width: 200px;
+    border-radius: 50%;
+    height: auto;
+}
+
+p.location {
+    font-style: italic;
+}
+
+p.desc {
+    margin-top: 10px;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+
+#gallery > img {
+    margin: 5px;
+    height: 290px;
+    width: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    background-color: black;
+    color: white;
+    font-size: .9rem;
+    letter-spacing: 1px;
+}
